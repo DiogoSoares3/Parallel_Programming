@@ -16,7 +16,7 @@ For each task received by the processing unit, there are two subtasks (division)
 
 ### Supporting illustration
 
-![image](image.png)
+![image](support_image.png)
 
 ### Execution
 
