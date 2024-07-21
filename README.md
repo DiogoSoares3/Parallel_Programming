@@ -14,6 +14,10 @@ A processing unit that wants to change the behavior of an actuator must change t
 
 For each task received by the processing unit, there are two subtasks (division), which can be executed independently (fork): changing the actuator's activity level and sending the change to the dashboard. Each subtask has an outcome: whether a failure occurred (random chances, 20% chance of failure). Upon completion of the two activities (join), if any of them suffered a failure (combination of the results), a failure message is sent to the dashboard (fork-join). Print on the screen “Failure: <actuator>\n”. 
 
+### Supporting illustration
+
+![image](image.png)
+
 ### Execution
 
 To simulate execution, you should allow your program to accept the number of sensors and actuators as parameters. The program can run indefinitely, or you can establish criteria for termination (e.g., run for X seconds or terminate after handling K sensory events).
