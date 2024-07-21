@@ -20,6 +20,8 @@ For each task received by the processing unit, there are two subtasks (division)
 
 ### Execution
 
-To simulate execution, you should allow your program to accept the number of sensors and actuators as parameters. The program can run indefinitely, or you can establish criteria for termination (e.g., run for X seconds or terminate after handling K sensory events).
+The project was implemented using the Go language in version 1.22.1 linux/amd64. To run the code, just write the following command in the project directory containing the main.go file
 
-You can develop the program in any programming language, but aim for parallel execution of requests whenever possible (note that in Python, threads do not run in parallel). You may choose to use existing libraries that implement thread pools, producer/consumer models, fork-join, or any other multithreading programming model you deem necessary. The use of data structures (stacks, queues, lists, tables, etc.) that implement mutual exclusion internally is not allowed.
+```
+go run main.go
+```
