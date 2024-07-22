@@ -1,6 +1,8 @@
 # Parallel Programing with go
 
-This work aims to explore the use of patterns for multithreaded programming. Each group will explore (at least) the producer/consumer, fork-join, and thread pool programming models in solving the problem.
+First of all, this was an assignment developed in the parallel and distributed programming subject (INE5645). 
+
+This work aims to explore the use of patterns for multithreaded programming. It be will be explored (at least) the producer/consumer, fork-join, and thread pool programming models in solving the problem.
 
 ## Problem Description: Automatic Activation System in Autonomous Cars
 
